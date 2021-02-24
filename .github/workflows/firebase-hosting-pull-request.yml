@@ -19,5 +19,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LAYERS_JS }}'
           projectId: layers-js
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+          channelId: live
+
